@@ -44,8 +44,8 @@ async function main() {
     }
   });
 
-  server.listen(3000, "0.0.0.0", () => {
-    console.log(`GraphQL API is running on http://localhost:3000/graphql`);
+  server.listen(4000, "0.0.0.0", () => {
+    console.log(`GraphQL API is running on http://localhost:4000/graphql`);
   });
 }
 
